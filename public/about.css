@@ -1,0 +1,52 @@
+
+/* skill colors */
+
+.fa-python { color: #3776AB; } /* Python color */
+.fa-html5 { color: #E34F26; } /* HTML5 color */
+.fa-css3-alt { color: #1572B6; } /* CSS3 color */
+.fa-js-square { color: #F7DF1E; } /* JavaScript color */
+.fa-react { color: #61DAFB; } /* React color */
+.fa-node { color: #3C873A; } /* Node.js color */
+.fa-node-js { color: #3C873A; } /* Node.js color (same as .fa-node) */
+.fa-database { color: #00648B; } /* SQL color (generic database color) */
+.fa-server { color: #4B8BBE; } /* MongoDB color (using a general server color as MongoDB doesn't have a specific color) */
+.fa-network-wired { color: #8DADDD; } /* RESTful APIs color (no specific color, chose a soft blue) */
+.fa-laptop-code { color: #0BDA51; } /* Responsive Web Design color (Malachite green representing design/creativity) */
+.fa-code-branch { color: #F05032; } /* Version Control (Git) color */
+.fa-users { color: #007BFF; } /* Agile Development color (blue representing teamwork) */
+
+
+
+/* Filter button container */
+#skill-filters {
+  text-align: center; /* Center the buttons */
+  margin-bottom: 20px; /* Add some space below the filter buttons */
+}
+
+/* Filter buttons */
+.filter-btn {
+  background-color: #f4f4f4; /* Light grey background */
+  color: #333; /* Dark text color for contrast */
+  border: 2px solid #ddd; /* Light grey border */
+  padding: 10px 20px; /* Padding for spacing around the text */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Change cursor to pointer to indicate it's clickable */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+  margin: 0 10px; /* Space out buttons */
+  border-radius: 5px; /* Rounded corners for aesthetics */
+}
+
+/* Filter button hover and active states */
+.filter-btn:hover, .filter-btn.active {
+  background-color: #61DAFB; /* Use a brand color for hover/active state */
+  color: #fff; /* White text color for contrast */
+  border-color: #61DAFB; /* Border color to match the background */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .filter-btn {
+    padding: 8px 16px; /* Smaller padding on smaller screens */
+    font-size: 14px; /* Smaller font size on smaller screens */
+  }
+}

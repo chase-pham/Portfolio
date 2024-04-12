@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chase Pham | My Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="global.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="section" id="home">
+        <h2>About me</h2>
+        <img src="photos/professional headshot.jpeg" alt="professional headshot">	
+        <p class="roboto-light">Hello, I'm Chase, a seasoned full-stack developer passionate about crafting immersive digital experiences. With expertise in both front-end and back-end technologies, I specialize in building robust web applications that seamlessly blend creativity with functionality. From responsive user interfaces to scalable server-side solutions, I thrive on bringing ideas to life in the digital realm. Let's collaborate and transform your concepts into captivating realities.</p>
+        <h3>Skills</h3>
+
+        <div id="skill-filters">
+            <button class="filter-btn" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="frontend">Front-end</button>
+            <button class="filter-btn" data-filter="backend">Back-end</button>
+            <button class="filter-btn" data-filter="database">Database</button>
+            <button class="filter-btn" data-filter="other">Other</button>
+            <!-- Add more filter buttons as needed -->
+        </div>
+
+        <ul id="skills-list">
+            <!-- Skills will be dynamically loaded here -->
+        </ul>
+    </section>
+
+    <footer>
+        <p>Connect with me on social media:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com/in/chase-pham"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/chase-pham"><i class="fab fa-github"></i></a></li>
+            <!-- Add other social networks as needed -->
+        </ul>
+        <p>© 2024 Chase Pham. All Rights Reserved.</p>
+    </footer>
+
+    <script src="about.js"></script>
+
+</body>
+</html>
